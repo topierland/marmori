@@ -8,11 +8,26 @@ $('a[href^="#"]').click(function () {
     return false;
 });
 
-
 // Open secret content
 jQuery(function() {
     $('.we-do').on('click', function() {
         $(this).toggleClass('revealed');
         $(this).find('.secret-content').slideToggle(400);
+    });
+});
+
+// Toggle menu
+jQuery(function() {
+    $('#menu-toggle').on('click', function() {
+        $('html').toggleClass('stop');
+        $('#menu').toggleClass('simsalabim');
+    });
+    $('#menu a').on('click', function() {
+        $('html').toggleClass('stop');
+        $('#menu').toggleClass('simsalabim');
+    });
+    $('#close').on('click', function() {
+        $('html').toggleClass('stop');
+        $('#menu').toggleClass('simsalabim');
     });
 });
