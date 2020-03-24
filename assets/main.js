@@ -1,11 +1,13 @@
 // Smooth scroll to content
 const $root = $('html, body');
 $('a[href^="#"]').click(function () {
+    let distance = $( $.attr(this, 'href') ).offset().top - 124 + 'px';
     $root.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
+        scrollTop: distance
     }, 500);
     return false;
 });
+
 
 // Open secret content
 jQuery(function() {
