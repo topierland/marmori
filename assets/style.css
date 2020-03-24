@@ -1,0 +1,150 @@
+html {
+    min-height: 100%;
+    top: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-size: 20px;
+}
+
+html, body {
+    font-family: stratos, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    font-size: inherit;
+    color: black;
+    background-color: white;
+}
+
+* {
+    font-family: stratos, Arial, sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 0 1rem;
+    margin: 2rem 0;
+}
+
+h1, h2, h3 {
+    font-size: 1.5rem;
+    line-height: 1.26;
+    font-weight: 400;
+}
+
+h3 {
+    margin: 1rem 0 .5rem;
+}
+
+h2 {
+    margin: 2rem 0 1.5rem;
+
+}
+
+.grey {
+    color: #7F7F7F;
+}
+
+.semilight {
+    font-family: stratos-lights, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.light {
+    font-family: stratos-lights, Arial, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#smarter-people {
+    margin: 3rem 0 4rem;
+}
+
+#smarter-people img {
+    width: 1.5rem;
+}
+
+.take-a-break {
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.take-a-break.one {
+    background-image: url("./img/marble-1.jpg");
+}
+
+.take-a-break.two {
+    background-image: url("./img/marble-2.jpg");
+}
+
+.take-a-break.three {
+    background-image: url("./img/marble-3.jpg");
+}
+
+.take-a-break.four {
+    background-image: url("./img/marble-4.jpg");
+}
+
+.we-do {
+    margin: 1rem 0;
+    border: 1px solid;
+    padding: 2rem 1rem 1rem;
+    text-align: center;
+}
+
+.we-do.green {
+    margin-top: 2rem;
+}
+
+.green {
+    color: #59DDA4;
+    border-color: #59DDA4;
+}
+
+.orange {
+    color: #FF6543;
+    border-color: #FF6543;
+}
+
+.pink {
+    color: #FF417F;
+    border-color: #FF417F;
+}
+
+.blue {
+    color: #0092AE;
+    border-color: #0092AE;
+}
+
+.we-do img {
+    max-width: 3rem;
+    margin: auto;
+}
+
+.we-do h3 {
+    margin-bottom: 0;
+}
+
+.we-do > p {
+    margin: 0;
+}
+
+.we-do .chevron {
+    width: 1rem;
+    margin-top: 1.5rem;
+}
