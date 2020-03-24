@@ -6,3 +6,11 @@ $('a[href^="#"]').click(function () {
     }, 500);
     return false;
 });
+
+// Open secret content
+jQuery(function() {
+    $('.we-do').on('click', function() {
+        $(this).toggleClass('revealed');
+        $(this).find('.secret-content').slideToggle(400);
+    });
+});
