@@ -30,4 +30,10 @@ jQuery(function() {
         $('html').toggleClass('stop');
         $('#menu').toggleClass('simsalabim');
     });
+    $('#content').on('click', function() {
+        if ($("#menu").hasClass("simsalabim")) {
+            $('html').toggleClass('stop');
+            $('#menu').toggleClass('simsalabim');
+        }
+    });
 });

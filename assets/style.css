@@ -19,12 +19,7 @@ body {
     color: black;
     background-color: white;
     padding-top: 4.25rem;
-    max-width: 500px;
     margin: auto;
-}
-
-html.stop {
-    overflow: hidden;
 }
 
 * {
@@ -103,7 +98,7 @@ header img {
     color: #FF6543;
     background-color: #F6F2F2;
     transition: all .6s cubic-bezier(0.32, 0.24, 0.15, 1);
-    padding: 4rem 1rem 1rem;
+    padding: 7rem 1rem 1rem;
 }
 
 #menu.simsalabim {
@@ -122,10 +117,6 @@ header img {
     padding: 1rem;
     margin: 0;
     cursor: pointer;
-}
-
-#welcome {
-    margin-top: 3rem;
 }
 
 .grey {
@@ -261,4 +252,85 @@ header img {
 
 footer {
     padding: 1rem;
+}
+
+@media (max-width: 425px) {
+    #welcome {
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width:426px) {
+    section {
+        padding: 0 4.25rem;
+        margin: 3.5rem 0;
+    }
+    footer {
+        padding: 1rem 4.25rem;
+    }
+    #menu {
+        padding: 7.5rem 4.25rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html.stop {
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 769px) {
+    .we-do {
+        width:calc(50% - 1rem);
+        display: inline-block;
+        vertical-align: top;
+    }
+    .we-do.green {
+    }
+    .we-do.orange {
+        margin-top: 2rem;
+    }
+    .we-do:nth-child(odd) {
+        margin-right: 1rem;
+    }
+    #menu {
+        width: unset;
+        left: unset;
+        right: 0;
+    }
+    .take-a-break {
+        height: 75vh;
+    }
+    p, h3 {
+        max-width: 28rem;
+    }
+    .guy {
+        margin-top: 4rem;
+        max-width: 28rem;
+    }
+    footer img {
+        max-width: 28rem;
+    }
+    .we-do {
+        max-width: 28rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    section {
+        padding: 0 5rem;
+        margin: 4rem 0;
+    }
+    header {
+        padding: 1.375rem;
+    }
+    footer {
+        padding: 1rem 5rem 1.375rem;
+    }
+}
+
+@media (min-width:1441px) {
+    html {
+        font-size: 24px;
+    }
 }

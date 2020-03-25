@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="67.3" height="67.3" viewBox="0 0 67.3 67.3">
-  <g id="Group_77" data-name="Group 77" transform="translate(-3890 -6585)">
-    <g id="Group_75" data-name="Group 75" transform="translate(3735.903 4129.139)">
-      <g id="Group_59" data-name="Group 59" transform="translate(3465.868 -4432.427) rotate(45)">
-        <path id="Path_191" data-name="Path 191" d="M47.792,82.931a2.85,2.85,0,0,0,2.1.873h0a2.848,2.848,0,0,0,2.095-.873,1,1,0,0,0,.182-.276L58.282,68.8a1,1,0,0,0,.085-.4V20.715c0-2.324-2.214-4.215-4.935-4.215H46.344c-2.721,0-4.935,1.891-4.935,4.215V68.393a1,1,0,0,0,.085.4L47.61,82.654A1,1,0,0,0,47.792,82.931Zm8.574-15.95H50.888V30.208h5.479Zm-7.479,0H43.409V30.208h5.479Zm7.127,2-3.167,7.176H46.929L43.762,68.98ZM49.355,81.653l-1.544-3.5h4.153l-1.544,3.5A1.065,1.065,0,0,1,49.355,81.653ZM46.344,18.5h7.088c1.618,0,2.935.994,2.935,2.215v7.494H43.409V20.715C43.409,19.494,44.726,18.5,46.344,18.5Z" transform="translate(2529 7164.5)" fill="#ff6543"/>
+  <g id="Group_80" data-name="Group 80" transform="translate(-3944 -6740)">
+    <rect id="Rectangle_45" data-name="Rectangle 45" width="67.3" height="67.029" transform="translate(3944 6740)" fill="none"/>
+    <g id="Group_79" data-name="Group 79" transform="translate(3951 6754.729)">
+      <g id="Group_59" data-name="Group 59">
+        <path id="Path_191" data-name="Path 191" d="M5.13,51.488A2.853,2.853,0,0,0,6,53.59H6a2.852,2.852,0,0,0,2.1.864,1,1,0,0,0,.324-.066L22.54,48.913a1,1,0,0,0,.343-.223L56.6,14.972c1.644-1.643,1.415-4.546-.509-6.47L51.08,3.49c-1.924-1.924-4.826-2.152-6.47-.509L10.9,36.694a1.011,1.011,0,0,0-.223.343L5.2,51.163A1.009,1.009,0,0,0,5.13,51.488Zm17.342-5.216L18.6,42.4l26-26,3.875,3.874Zm-5.289-5.288L13.31,37.11l26-26,3.874,3.874Zm3.625,6.453-7.313,2.835L9.31,46.088l2.836-7.315ZM7.139,51.689l1.383-3.566,2.937,2.936L7.892,52.442A1.065,1.065,0,0,1,7.139,51.689ZM49.666,4.9l5.012,5.012c1.144,1.144,1.373,2.778.509,3.642l-5.3,5.3L40.726,9.694l5.3-5.3C46.888,3.532,48.522,3.76,49.666,4.9Z" transform="translate(-5.129 -1.884)" fill="#ff6543"/>
       </g>
-      <path id="Path_223" data-name="Path 223" d="M2154.919,7238.744h44.656" transform="translate(-1989 -4722.544)" fill="none" stroke="#ff7600" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_223" data-name="Path 223" d="M7.822,53.34H52.478" transform="translate(-5.129 -1.884)" fill="none" stroke="#ff7600" stroke-linecap="round" stroke-width="2"/>
     </g>
-    <rect id="Rectangle_45" data-name="Rectangle 45" width="67.3" height="67.3" transform="translate(3890 6585)" fill="none"/>
   </g>
 </svg>
