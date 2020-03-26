@@ -257,6 +257,23 @@ header img {
 
 .guy {
     margin-top: 2rem;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15rem;
+}
+
+.guy.topi {
+    background-image: url(./img/topi.svg);
+}
+
+.guy.jesse {
+    background-image: url(./img/jesse.png);
+}
+
+.guy.tero {
+    background-image: url(./img/tero.jpg);
 }
 
 footer {
@@ -327,6 +344,7 @@ footer img {
     .guy {
         margin-top: 4rem;
         max-width: 28rem;
+        height: 25rem;
     }
     footer img {
         max-width: 28rem;
