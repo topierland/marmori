@@ -143,6 +143,10 @@ header img {
     font-style: italic;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 #smarter-people {
     margin: 3rem 0 4rem;
 }
@@ -171,6 +175,26 @@ header img {
 
 .take-a-break.four {
     background-image: url("./img/marble-4.jpg");
+}
+
+.take-a-break.five {
+    background-image: url("./img/marble-5.jpg");
+}
+
+.take-a-break.six {
+    background-image: url("./img/marble-6.jpg");
+}
+
+.take-a-break.seven {
+    background-image: url("./img/marble-7.jpg");
+}
+
+.take-a-break.eight {
+    background-image: url("./img/marble-8.jpg");
+}
+
+.take-a-break.nine {
+    background-image: url("./img/marble-9.jpg");
 }
 
 .we-do {
@@ -342,7 +366,7 @@ footer img {
     .take-a-break {
         height: 75vh;
     }
-    p, h3 {
+    p, h3, .workshop img {
         max-width: 28rem;
     }
     .guy {
@@ -375,4 +399,9 @@ footer img {
     html {
         font-size: 24px;
     }
+}
+
+/*workshop.html*/
+.workshop h3 {
+    font-size: 1.25rem;
 }
