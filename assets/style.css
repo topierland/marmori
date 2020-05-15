@@ -197,6 +197,10 @@ header img {
     background-image: url("./img/marble-9.jpg");
 }
 
+.take-a-break.ten {
+    background-image: url("./img/marble-10.jpg");
+}
+
 .we-do {
     margin: 1rem 0;
     border: 1px solid;
