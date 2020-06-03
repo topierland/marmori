@@ -406,6 +406,32 @@ footer img {
 }
 
 /*workshop.html*/
-.workshop h3 {
+.workshop h3, .blog h3 {
     font-size: 1.25rem;
+}
+
+/*blog*/
+.blog h1 {
+    margin-bottom: 1.5rem;
+}
+.blog a {
+    text-decoration: underline;
+}
+.blog-text section > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-text h1 {
+    max-width: 28rem;
+}
+.blog-text p {
+
+}
+.blog-text h3 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.blog-text img {
+    max-width: 32rem;
+    margin: 2rem auto;
 }
