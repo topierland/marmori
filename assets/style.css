@@ -435,3 +435,12 @@ footer img {
     max-width: 32rem;
     margin: 2rem auto;
 }
+.feature-image {
+    height: calc(50vh - 5rem);
+    margin-top: 0;
+    background-size: cover;
+    background-position: center;
+}
+.feature-image.one {
+    background-image: url("./img/featured-1.jpg");
+}
